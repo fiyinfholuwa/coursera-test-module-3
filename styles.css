@@ -1,0 +1,156 @@
+
+
+
+#header-nav{
+	background-color: lightyellow;
+}
+li {
+	color: white;
+}
+
+div > h1 {
+  text-align: left;
+}
+
+
+
+#Chicken, #Beef, #Sushi {
+  padding: 50px 25px 10px 25px;
+}
+#Chicken-tile, #Beef-tile, #Sushi-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  background-color: white;
+}
+#Chicken-tile:hover, #Beef-tile:hover, #Sushi-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#Chicken-tile {
+  background-position: center;
+  height: 250px;
+  width: 100%;
+  background-color: lightblue;
+}
+#Beef-tile {
+  
+  background-position: center;
+  height: 250px;
+  width: 100%;
+  background-color: lightgreen;
+}
+#Sushi-tile {
+  
+  background-position: center;
+  height: 250px;
+  width: 100%;
+  background-color: lightgrey;
+}
+#Chicken-tile span {
+  position: absolute;
+  right: 0;
+  width: 35%;
+  text-align: right;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #003;
+  color: #ff0;
+  opacity: .8;
+  overflow: hidden;
+}
+
+ #Beef-tile span {
+  position: absolute;
+  right: 0;
+  width: 35%;
+  text-align: right;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #0bde;
+  color: #f00e;
+  opacity: .8;
+  overflow: hidden;
+}
+
+#Sushi-tile span {
+  position: absolute;
+  right: 0;
+  width: 35%;
+  text-align: right;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #023457;
+  color: #ffffff;
+  opacity: .8;
+  overflow: hidden;
+}
+
+}
+     * {
+    box-sizing: border-box;
+}
+
+h1{
+    color: rgba(120,130,56,0.5);   
+    font-size:24px;
+    text-align: center;
+}
+
+section {
+    background-color: lightyellow;
+    border: 2px solid brown;    
+    overflow: hidden;  
+}
+
+h3 {
+    float: right;
+    border:2px solid black;
+    color: rgba(130,78,90,0.9);
+    padding: 5px 25px 5px 25px;
+    margin-top: 0;
+    margin-bottom: 15px;
+   font-size: 24px;
+}
+
+.hidden-xs,
+.hidden-sm,
+.hidden-md-4,
+.hidden-lg {
+  display: none !important;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  color: purple;
+  width: 100%;
+  border: 0.5px solid green;
+  }
+
+ #Back {
+ 	text-decoration: none;
+ 	color: black;
+ }
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    .hidden-md-4 {
+  display: none !important;
+}
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hidden-md-4,
+.hidden-lg {
+  display: none !important;
+}
+  }
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+}
